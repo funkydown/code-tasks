@@ -8,12 +8,6 @@
 # - unittest: если есть test_runner.py — он, иначе поиск test*.py по дереву репозитория;
 # - лимит 5 минут.
 #
-# Чтобы бот мог писать в pull request, на GitHub нужно разрешить запись токену Actions:
-# репозиторий (или организация) → Settings → Actions → General → Workflow permissions
-# → «Read and write permissions» (не «Read repository contents and packages permissions»).
-# Сохраните. Без этого шаг с комментарием тихо не оставит сообщение, Check всё равно будет красным.
-# Комментарий к issue/PR — это pull-requests: write, права создавать PR не нужны.
-
 name: Python auto testing
 
 on:
